@@ -98,15 +98,29 @@ void loop() {
 }
 
 /**
- * @brief Prints Autor, License, Dependencies & Code firmware version info to Serial Monitor
+ * @brief Prints Author, License, Dependencies & Code firmware version info to Serial Monitor
  */
 void printVersion() {
+  Serial.println("Author, License, Dependencies & Code firmware version info";
+  Serial.println("------------------------------------------";  
+  Serial.print("Code Author: ");
   Serial.println(code_author);
-  Serial.println(code_license);
-  Serial.println(code_usage);
+  Serial.print("Code / Sketch Name: ");
   Serial.println(code_name);
+  Serial.println("Code Description: ");
   Serial.println(code_description);
   Serial.println(code_version);
   Serial.println(code_last_modified);
+  Serial.print("Target Board: ");
+  Serial.println(target_board);
+  Serial.print("Target_IDE: ");
+  Serial.println(target_IDE);
+  Serial.println("Code Dependencies: ");
+  Serial.println(code_dependencies);
+  Serial.println("Code License Types: ");
+  Serial.println(code_license);
+  Serial.println(code_usage);
+  Serial.println("------------------------------------------";  
+  Serial.println(" ";  
 }
 
