@@ -11,7 +11,7 @@
 #define code_license "GNU Lesser General Public License v3.0"
 #define code_usage "CC BY-NC-SA 3.0"
 // Create Date:			06/27/2025 
-#define code_name "blink_STEAMClown.ino"
+#define code_name "Arduino-Best-Template.ino"
 #define code_description "adaptation of blink on http://arduino.cc/ <-- Give Credit, If Due"
 // Dependencies: 
 // Version / Revision:
