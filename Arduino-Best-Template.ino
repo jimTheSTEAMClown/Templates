@@ -100,6 +100,7 @@ void loop() {
 /**
  * @brief Prints Author, License, Dependencies & Code firmware version info to Serial Monitor
  */
+// TODO: fix format & check spelling
 void printVersion() {
   Serial.println("Author, License, Dependencies & Code firmware version info");
   Serial.println("------------------------------------------");  
