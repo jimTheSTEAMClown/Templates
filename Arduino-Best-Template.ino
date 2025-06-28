@@ -10,24 +10,59 @@
 // https://creativecommons.org/licenses/by-nc-sa/3.0/ <-- License Type = CC
 #define code_license "GNU Lesser General Public License v3.0"
 #define code_usage "CC BY-NC-SA 3.0"
-// Create Date:			06/27/2025 
+// Create Date:			06/27/2025
+#define code_project_name " This is the project this code might belog to "
 #define code_name "Arduino-Best-Template.ino"
-#define code_description "adaptation of blink on http://arduino.cc/ <-- Give Credit, If Due"
-// Dependencies: 
+#define code_description "adaptation of blink on http://arduino.cc/ <-- Give Credit, If Due "
+// Dependencies:
+#define target_board " Arduino Uno R3 "
+#define target_IDE " Arduino IDE 2.3.5 " 
+#define code_dependencies " PID_v1.h, Encoder.h, NewPing.h " // List any libraries and other dependencies
 // Version / Revision:
 // #define code_version 0.01 //  0.01 - Created 06/27/2025
 // #define code_version 0.02 //  0.02 - Updated for SVCTE Mechatronics Class - 06/27/2025
 #define code_version 1.08 // Updated with additional template items, like for SVCTE Mechatronics Class - 06/28/2025
-#define code_version_date "06/28/2025"
+#define code_last_modified "2025-06-28 by Jim Burnham "06/28/2025"
 // Additional Comments: 
 //
 // ============================================================================
+//
+// You can use comment tags like these to flag TODOs or bugs during development:
+// TODO: Tune PID constants for outdoor conditions
+// FIXME: Motors jitter on low battery
+// NOTE: This sensor model has a max range of ~200cm
+
 // ------------------------------------------
 // info varialble to show code Information & Usage
 int info = 1;  // 1 = serial port information/usage messages, 0 = no info messages
+
 // ------------------------------------------
 // debug varialble to show code debug messages
 int debug = 1;  // 1 = serial port messages,, 0 = no debug messages
+
+// ------------------------------------------
+// Global Constants & Pins
+
+// ----------------------
+// Pin Definitions
+// ----------------------
+const int LED = 13; // board LED pin, to be used as some process indicator
+// const int trigPin = 9; // Explain pin, module and use
+// const int echoPin = 10; // Explain pin, module and use
+
+// ----------------------
+// Global Variables
+// ----------------------
+// unsigned long blinkInterval = 1000;  // Interval in milliseconds
+// unsigned long lastBlinkTime = 0;
+// bool ledState = false;
+
+// ----------------------
+// Function Prototypes - List your functions
+// ----------------------
+// void setupLED();
+// void blinkLED();
+void printVersion();
 
 // ============================================================================
 void setup() {
@@ -41,14 +76,8 @@ void setup() {
   */  
   Serial.begin(115200);  // be sure serial monitor is set for 'newline' line ending??
   if (info >= 1) {
-    Serial.println(code_author);
-    Serial.println(code_license);
-    Serial.println(code_usage);
-    Serial.println(code_name);
-    Serial.println(code_description);
-    Serial.println(code_version);
-    Serial.println(code_version_date);
-  }
+    printVersion();
+    }
   Serial.println(" ------------------------------------------ "); 
   Serial.println(" --- Begin Of SETUP --- "); 
   Serial.println(" ------------------------------------------ ");
@@ -66,5 +95,18 @@ void setup() {
 void loop() {
 // ------------------------------------------
 
+}
+
+/**
+ * @brief Prints Autor, License, Dependencies & Code firmware version info to Serial Monitor
+ */
+void printVersion() {
+  Serial.println(code_author);
+  Serial.println(code_license);
+  Serial.println(code_usage);
+  Serial.println(code_name);
+  Serial.println(code_description);
+  Serial.println(code_version);
+  Serial.println(code_last_modified);
 }
 
