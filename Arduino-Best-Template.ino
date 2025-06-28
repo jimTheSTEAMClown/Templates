@@ -1,5 +1,5 @@
 // ------------------------------------------
-Best Arduino Template <-- Delete This, but keep and fill out the stuff below
+// Best Arduino Template <-- Delete This, but keep and fill out the stuff below
 // ------------------------------------------
 // =========================================42===================================80
 // Source: STEAM Clown - www.steamclown.org <-- Who Are You
