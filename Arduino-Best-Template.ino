@@ -1,5 +1,5 @@
 // ------------------------------------------
-// Best Arduino Template <-- Delete This, but keep and fill out the stuff below
+// Best Arduino Template <-- Delete This, but keep & Edit the stuff below
 // ------------------------------------------
 // =========================================42===================================80
 // Source: STEAM Clown - www.steamclown.org <-- Who Are You
@@ -18,11 +18,11 @@
 #define target_board " Arduino Uno R3 "
 #define target_IDE " Arduino IDE 2.3.5 " 
 #define code_dependencies " PID_v1.h, Encoder.h, NewPing.h " // List any libraries and other dependencies
-// Version / Revision:
-// #define code_version 0.01 //  0.01 - Created 06/27/2025
-// #define code_version 0.02 //  0.02 - Updated for SVCTE Mechatronics Class - 06/27/2025
-#define code_version 1.08 // Updated with additional template items, like for SVCTE Mechatronics Class - 06/28/2025
-#define code_last_modified "2025-06-28 by Jim Burnham "06/28/2025"
+// Version / Revision / Change Log:
+// #define code_version 0.01 //  0.01 - Created 2025-06-27 by STEAM Clown 
+// #define code_version 0.02 //  0.02 - Updated for SVCTE Mechatronics Class - 2025-06-27 by STEAM Clown 
+#define code_version 1.08 // Updated with additional template items, like for SVCTE Mechatronics Class - 2025-06-28 by STEAM Clown 
+#define code_last_modified "2025-06-28 by STEAM Clown "
 // Additional Comments: 
 //
 // ============================================================================
@@ -58,7 +58,7 @@ const int LED = 13; // board LED pin, to be used as some process indicator
 // bool ledState = false;
 
 // ----------------------
-// Function Prototypes - List your functions
+// Function Prototypes - List your functions, then impliment them after the void loop() function
 // ----------------------
 // void setupLED();
 // void blinkLED();
