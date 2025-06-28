@@ -101,8 +101,8 @@ void loop() {
  * @brief Prints Author, License, Dependencies & Code firmware version info to Serial Monitor
  */
 void printVersion() {
-  Serial.println("Author, License, Dependencies & Code firmware version info";
-  Serial.println("------------------------------------------";  
+  Serial.println("Author, License, Dependencies & Code firmware version info");
+  Serial.println("------------------------------------------");  
   Serial.print("Code Author: ");
   Serial.println(code_author);
   Serial.print("Code / Sketch Name: ");
