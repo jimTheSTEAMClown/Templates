@@ -120,7 +120,7 @@ void printVersion() {
   Serial.println("Code License Types: ");
   Serial.println(code_license);
   Serial.println(code_usage);
-  Serial.println("------------------------------------------";  
-  Serial.println(" ";  
+  Serial.println("------------------------------------------");  
+  Serial.println(" ");  
 }
 
