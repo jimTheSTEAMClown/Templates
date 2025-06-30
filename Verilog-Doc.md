@@ -1,18 +1,27 @@
 # Verilog Hackathon Education Kit Manual  
 
 ---
+### Methods to show progress:
+If you want to show you are still working or done, add the following:  
+🚧- Construction emoji, means you are still working on this section  
+✅- Done with this task
+❌- red "x", means you are not done, have not started, or are in progress
+📝- This is a note to others. You can assign these notes to all or to a specific person.  
+❎- If you see a note 📝 assigned to you or if you are going to accept it, replace it with a ❎  
+
 ### Notes to Writers:
 📝 - Sugest a better title for this document  
-📝 - Just so you know, I'm (STEAM Clown) an goiingd to be just editing this doc in place, so if you make a fork, just make sure you check it in correctly
-I'm going to add a lab template, where we can each pick a lab and update that section.  
+📝 - Just so you know, I'm (STEAM Clown) an going to be just editing this doc in place, so if you make a fork, just make sure you check it in correctly
+🚧- I'm going to add a lab template, where we can each pick a lab and update that section.  
 
 ---
 ### Links That will be deleted later
 * [MD cheat sheet](https://www.markdownguide.org/cheat-sheet/)
-* [Old Document](https://docs.google.com/document/d/1Z1MZMz6SOwn6kjaCy0DiFt3yNVrN_1zEZgmNQC1ft-Q/edit?usp=sharing)
+* [Old Google Document](https://docs.google.com/document/d/1Z1MZMz6SOwn6kjaCy0DiFt3yNVrN_1zEZgmNQC1ft-Q/edit?usp=sharing)
 
 ---
 # Verilog Hackathon Education Kit Manual
+## About This Maunual
 
 ## Introduction
 
