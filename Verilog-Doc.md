@@ -27,15 +27,15 @@ This Manual and labs are a comprehensive introduction to Verilog Hardware Descri
 
 Through progressive modules, real-world labs, and capstone projects, you'll gain practical skills applicable to embedded systems, electronics engineering, and chip design industries. This course balances conceptual understanding with industry-relevant application, making it ideal for students, hobbyists, and professionals alike.  
 
-This Verilog Manual will walk you through a set of Labs and Exercises that will quickly let you see the results of your Verilog code implemented in hardware.  You will learn through hands on labs, that will take you from simple Verilog syntax to more complex structures. The Lessons will explain the code, and the Labs will provide challenges implementing the concepts from the Lessons. This Tutorial will not go very deep into Simulation or Testbenches.  The goal is to teach basic Verilog syntax, and quickly see its implementation in the kit Hardware.  
+This Verilog Manual will walk you through a set of Labs and Exercises that will quickly let you see the results of your Verilog code implemented in hardware.  You will learn through hands-on-labs that will take you from simple Verilog syntax to more complex structures. The Lessons will explain the code, and the Labs will provide challenges implementing the concepts from the Lessons. This Tutorial will not go very deep into Simulation or Testbenches.  The goal is to teach basic Verilog syntax, and quickly see its implementation in the kit Hardware.  
 
 While the Verilog design flows described in this Manual can target multiple FPGAs boards & ASIC tools flows, most design flows described in this manual,  will target the Gowin Sipeed Tang Nano 9K FPGA Development Board (GOWIN GW1NR-9)  
 
 
 ## Introduction - Verilog Hackathon Education Kit
-🚧- Anyone can work on this... It is just a short overive of the kit, golas, and how to use it
+🚧- Anyone can work on this... It is just a short overview of the kit, golas, and how to use it
 ## Introduction to The Verilog Language & Syntax
-🚧- This section will gove a overivew of the Verilog language, and have a few sections on the Verilog syntax, but not have labs.  Some topics and sections are as follows:  
+🚧- This section will give a overview of the Verilog language, and have a few sections on the Verilog syntax, but not have labs.  Some topics and sections are as follows:  
 ### Introduction to Digital Design and Verilog  
 🚧- Anyone can work on this... It probably should link to an overview presentation  
 ### ASIC vs FPGA: What’s the Difference?  
@@ -50,13 +50,13 @@ While the Verilog design flows described in this Manual can target multiple FPGA
 In this 🛠️ Lab Activity, you are going to install the Gowan Tang-Nano FPGA tools.  You will verify that the installation is correct and ready to run the subsequent Verilog Labs. 
 
 ### Gowin FPGA Board - Tang-Nano Setup & Hardware Connections    
-🚧- This section will show the connection of all the harware, GPIO baoard, Display, Utrasonie, etc...
+🚧- This section will show the connection of all the hardware, GPIO board, Display, Utrasonie, etc...
 
 ---
 ## Verilog Labs
 ---
-📝 - The following are the Labs that are in the [Basic Music - Hackation](https://github.com/yuri-panchul/basics-graphics-music/tree/main) in the [Problems](https://github.com/yuri-panchul/basics-graphics-music/tree/main/hackathon/problems) directory.  What other labs should we have to teach basic Verilog.  
-📝 - STEAM CLown - I think that we should have a few more Labs to show using the GPIO board.  Also, maybe we should cheage the order of the labs, so we can do all the labs focused on the GPIO module befre we start looking at the Dislay. Thoughts?  
+📝 - The following are the Labs that are in the [Basic Music - Hackation](https://github.com/yuri-panchul/basics-graphics-music/tree/main) in the [Problems](https://github.com/yuri-panchul/basics-graphics-music/tree/main/hackathon/problems) directory.  What other labs should we have to teach basic Verilog?  
+📝 - STEAM CLown - I think that we should have a few more Labs to show using the GPIO board.  Also, maybe we should change the order of the labs, so we can do all the labs focused on the GPIO module before we start looking at the Display. Thoughts?  
 
 ### Gates & Muxes
 
