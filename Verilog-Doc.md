@@ -59,6 +59,8 @@ In this 🛠️ Lab Activity, you are going to install the Gowan Tang-Nano FPGA 
 📝 - STEAM CLown - I think that we should have a few more Labs to show using the GPIO board.  Also, maybe we should change the order of the labs, so we can do all the labs focused on the GPIO module before we start looking at the Display. Thoughts?  
 
 ### Gates & Muxes
+#### Gates & Muxes Introduction
+📝 - This section should link to a presentation.  Short explanation can be here, but really this should be linked to a presentation, and other resources to tech about this.  My plan for my class is to have a presentation, dig deeper assignment, some additional resources, and then a set of quiz questions.  This will be implemented in a Canvas LMS, and I'll publish this later in Jan 2026.
 
 ### Rectangles & Circles
 
