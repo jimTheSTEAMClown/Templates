@@ -1,6 +1,6 @@
 # Verilog Hackathon Education Kit Manual
-
- 📝- Note: SC - sugest a better title
+---
+📝Note: SC - sugest a better title
 ---
 ### Notes to Writers:
  📝 - Just so you know, I'm (STEAM Clown) an goiing to be just editing this doc in place, so if you make a fork, just make sure you check it in correctly
