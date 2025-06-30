@@ -52,7 +52,7 @@ In this 🛠️ Lab Activity, you are going to install the Gowan Tang-Nano FPGA 
 🚧- This section will show the connection of all the harware, GPIO baoard, Display, Utrasonie, etc...
 
 ## Verilog Labs
-📝 - The following are the Labs that are in the [Hackation]() in the [Problems](https://github.com/yuri-panchul/basics-graphics-music/tree/main/hackathon/problems) directory.  What other labs should we have to teach basic Verilog.  
+📝 - The following are the Labs that are in the [Basic Music - Hackation](https://github.com/yuri-panchul/basics-graphics-music/tree/main) in the [Problems](https://github.com/yuri-panchul/basics-graphics-music/tree/main/hackathon/problems) directory.  What other labs should we have to teach basic Verilog.  
 📝 - STEAM CLown - I think that we should have a few more Labs to show using the GPIO board.  Also, maybe we should cheage the order of the labs, so we can do all the labs focused on the GPIO module befre we start looking at the Dislay. Thoughts?  
 
 ### Gates & Muxes
