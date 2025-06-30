@@ -1,6 +1,17 @@
 # Verilog Hackathon Education Kit Manual
+📝 - Note: SC - sugest a better title
+---
+### Notes to Writers:
+📝 - Just so you know, I'm (STEAM Clown) an goiing to be just editing this doc in place, so if you make a fork, just make sure you check it in correctly
+I'm going to add a lab template, where we can each pick a lab and update that section.  
 
-See [MD cheat sheet](https://www.markdownguide.org/cheat-sheet/)
+---
+### Links That will be deleted later
+* [MD cheat sheet](https://www.markdownguide.org/cheat-sheet/)
+* [Old Document](https://docs.google.com/document/d/1Z1MZMz6SOwn6kjaCy0DiFt3yNVrN_1zEZgmNQC1ft-Q/edit?usp=sharing)
+
+---
+# Verilog Hackathon Education Kit Manual
 
 ## Introduction
 
