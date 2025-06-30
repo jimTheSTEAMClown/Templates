@@ -1,4 +1,5 @@
 # Verilog Hackathon Education Kit Manual
+
  📝- Note: SC - sugest a better title
 ---
 ### Notes to Writers:
