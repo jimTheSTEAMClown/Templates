@@ -32,9 +32,15 @@ This Verilog Manual will walk you through a set of Labs and Exercises that will 
 While the Verilog design flows described in this Manual can target multiple FPGAs boards & ASIC tools flows, most design flows described in this manual,  will target the Gowin Sipeed Tang Nano 9K FPGA Development Board (GOWIN GW1NR-9)  
 
 
-## Introduction
+## Introduction - Verilog Hackathon Education Kit
 
 ## Introduction to The Verilog Language & Syntax
+🚧- This section will gove a overivew of the Verilog language, and have a few sections on the Verilog syntax, but not have labs.  Some topics and sections are as follows:  
+### Introduction to Digital Design and Verilog  
+
+### ASIC vs FPGA: What’s the Difference?  
+
+### Verilog Design Flow Overview (Simulation, Synthesis, Implementation)  
 
 ## Introduction To Kit Hardware  
 ### Gowin FPGA Board - Tang-Nano Introduction  
@@ -42,6 +48,34 @@ While the Verilog design flows described in this Manual can target multiple FPGA
 🚧- ❎- STEAM Clown will update this later
 In this 🛠️ Lab Activity, you are going to install the Gowan Tang-Nano FPGA tools.  You will verify that the installation is correct and ready to run the subsequent Verilog Labs. 
 
+### Gowin FPGA Board - Tang-Nano Setup & Hardware Connections    
+🚧- This section will show the connection of all the harware, GPIO baoard, Display, Utrasonie, etc...
+
+## Verilog Labs
+📝 - The following are the Labs that are in the [Hackation]() in the [Problems](https://github.com/yuri-panchul/basics-graphics-music/tree/main/hackathon/problems) directory.  What other labs should we have to teach basic Verilog.  
+📝 - STEAM CLown - I think that we should have a few more Labs to show using the GPIO board.  Also, maybe we should cheage the order of the labs, so we can do all the labs focused on the GPIO module befre we start looking at the Dislay. Thoughts?  
+
+### Gates & Muxes
+
+### Rectangles & Circles
+
+### D Flip Flop
+
+### Binary Counter
+
+### Shift Register
+
+### Moving Rectangle
+
+### Game Example
+
+### Ultrasonic Distance
+
+### Rotary Encoder
+---
+# END Of Doc  
+---
+Everythig below will get deleted, and was just part of the original md template  
 
 ### 1. Board Setup
 
