@@ -23,7 +23,12 @@
 #define code_version "1.0.1" // Updated with additional template items, for SVCTE Mechatronics Class - 2025-06-30 by STEAM Clown
 #define code_version "1.0.2" // Added a section for standards
 #define code_last_modified "2025-07-02 - by STEAM Clown "
-// Additional Comments: 
+// Additional Comments:
+// ------------------------------------------
+// SAFETY - This is where you tell user what Safety issues they should think about
+// !! be sure arm is in rest position before power on !!
+#define safety "// !! be sure arm is in rest position before power on !!"
+// ------------------------------------------
 //
 // ============================================================================
 // Standrds - I Know, it's C++, but I'm going to propogate Python Standards, so Pep8 - https://peps.python.org/pep-0008/
@@ -125,6 +130,8 @@ void printVersion() {
   Serial.println("Code License Types: ");
   Serial.println(code_license);
   Serial.println(code_usage);
+  Serial.println("------------------------------------------"); 
+  Serial.println(safety);
   Serial.println("------------------------------------------");  
   Serial.println(" ");  
 }
