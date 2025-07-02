@@ -2,31 +2,35 @@
 // Best Arduino Template <-- Delete This, but keep & Edit the stuff below
 // ------------------------------------------
 // =========================================42===================================80
-// Source: STEAM Clown - www.steamclown.org <-- Who Are You
-// GitHub: https://github.com/jimTheSTEAMClown/RepositoryName <-- Link To Repository
+// Source: STEAM Clown - www.steamclown.org 
+// GitHub: https://github.com/jimTheSTEAMClown/Marvin-Robot-Arm 
 #define code_author "Hacker: Jim Burnham - STEAM Clown - www.steamclown.org - Engineer, Maker, Propmaster & Adrenologist" // <-- Author
-// This example code is covered under the GNU Lesser General Public License v3.0 // <-- License Type = GPL
-// and any docs and lesson examples is licensed under the CC BY-NC-SA 3.0. <-- CC
-// https://creativecommons.org/licenses/by-nc-sa/3.0/ <-- License Type = CC
+// This example code is covered under the GNU Lesser General Public License v3.0 
+// and any docs and lesson examples is licensed under the CC BY-NC-SA 3.0. 
+// https://creativecommons.org/licenses/by-nc-sa/3.0/ 
 #define code_license "GNU Lesser General Public License v3.0"
 #define code_usage "CC BY-NC-SA 3.0"
 // Create Date:			06/27/2025
-#define code_project_name " This is the project this code might belog to "
-#define code_name "Arduino-Best-Template.ino"
-#define code_description "adaptation of blink on http://arduino.cc/ <-- Give Credit, If Due "
+#define code_project_name " Test Servo positions for Marvin's Arm.  Read Pot Analog values, to determine a Servo position "
+#define code_name "Marvin_Arm_Analog_Test_1.ino"
+#define code_description "Test Servo positions for Marvin's Arm.  Read Pot Analog values, to determine a Servo position - adaptation of Ralph's marvin code "
 // Dependencies:
 #define target_board " Arduino Uno R3 "
 #define target_IDE " Arduino IDE 2.3.5 " 
-#define code_dependencies " PID_v1.h, Encoder.h, NewPing.h " // List any libraries and other dependencies
+#define code_dependencies " TBD " // List any libraries and other dependencies
 // Version / Revision / Change Log:
-// #define code_version 0.01 //  0.01 - Created 2025-06-27 by STEAM Clown 
-// #define code_version 0.02 //  0.02 - Updated for SVCTE Mechatronics Class - 2025-06-27 by STEAM Clown 
-#define code_version 1.08 // Updated with additional template items, like for SVCTE Mechatronics Class - 2025-06-28 by STEAM Clown 
-#define code_last_modified "2025-06-28 by STEAM Clown "
+// #define code_version "0.01" //  0.01 - Created 2025-06-30 by STEAM Clown 
+#define code_version "1.0.1" // Updated with additional template items, for SVCTE Mechatronics Class - 2025-06-30 by STEAM Clown
+#define code_version "1.0.2" // Added a section for standards
+#define code_last_modified "2025-07-02 - by STEAM Clown "
 // Additional Comments: 
 //
 // ============================================================================
-//
+// Standrds - I Know, it's C++, but I'm going to propogate Python Standards, so Pep8 - https://peps.python.org/pep-0008/
+// Naming Functions = snake_case()
+// Naming Variables = snake_case
+// Constants like Pin #define assignments = All_CAPS_SNAKE_CASE
+// ============================================================================
 // You can use comment tags like these to flag TODOs or bugs during development:
 // TODO: Tune PID constants for outdoor conditions
 // FIXME: Motors jitter on low battery
